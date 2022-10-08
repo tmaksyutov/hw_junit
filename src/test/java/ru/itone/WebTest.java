@@ -48,6 +48,7 @@ public class WebTest {
                 Arguments.of(Locale.EN, List.of("Quick start", "Docs", "FAQ", "Blog", "Javadoc", "Users", "Quotes")),
                 Arguments.of(Locale.RU, List.of("С чего начать?", "Док", "ЧАВО", "Блог", "Javadoc", "Пользователи", "Отзывы"))
         );
+
     }
     @MethodSource
     @ParameterizedTest(name = "Проверка отображения названия кнопок для локали: {0}")
